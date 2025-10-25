@@ -37088,26 +37088,72 @@
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_divYOUW5RVCP3JYRTF"></div>
+//# sourceMappingURL=bundle.js.map </script>
+    <style>
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #1A1A1A;
+            padding: 20px;
+        }
+        .lime.top.labels {
+            overflow: visible !important;
+            max-height: none !important;
+            padding: 15px;
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+        .text-with-highlighted-words {
+            white-space: pre-wrap !important;
+            word-wrap: break-word !important;
+            overflow: visible !important;
+            max-height: none !important;
+            padding: 15px;
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+            margin: 15px 0;
+            line-height: 1.6;
+        }
+        table.explanation {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        .explanation td, .explanation th {
+            padding: 8px 12px;
+            border: 1px solid #e9ecef;
+        }
+        .explanation th {
+            background: #f8f9fa;
+            font-weight: 600;
+        }
+        .explanation tr:nth-child(even) {
+            background: #f8f9fa;
+        }
+    </style>
+    </head><body>
+        <div class="lime top_div" id="top_divO9BYT5DGMKHSFMM"></div>
         
         <script>
-        var top_div = d3.select('#top_divYOUW5RVCP3JYRTF').classed('lime top_div', true);
+        var top_div = d3.select('#top_divO9BYT5DGMKHSFMM').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["Human", "AI"], [0.0031690597534179688, 0.996830940246582]);
+            var pp = new lime.PredictProba(pp_svg, ["Human", "AI"], [0.48341262340545654, 0.5165873765945435]);
             
         
         var exp_div;
             var exp = new lime.Explanation(["Human", "AI"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["can", 0.178828986418428], ["building", 0.15603539241050116], ["part", 0.12925055533840238], ["management", 0.09501144149703758], ["loss", 0.09081494316131025], ["essential", 0.07499970340659944], ["including", -0.07319544733424493], ["early", 0.06597182318758883], ["property", 0.06454807400552633], ["natural", -0.058480268892516805], ["are", -0.05294076013079468], ["urbanization", 0.052616341250184974], ["flood", -0.048944461730590715], ["infrastructure", -0.04593600756008228], ["damage", -0.04544080487690571], ["devastating", 0.04092366543345117], ["gradually", -0.03650042840946986], ["severity", 0.035624028570517094], ["exacerbate", 0.03196981703365762], ["as", 0.030293050219842285]], 1, exp_div);
+                exp.show([["environmental", 0.5472709393598068], ["reduce", 0.21241066989961596], ["layer", -0.2011190002761873], ["air", 0.19982695619826474], ["contributes", -0.1410150931162352], ["ozone", -0.13265213849032156], ["Prolonged", 0.12714414317357717], ["essential", 0.12692439332956004], ["respiratory", -0.09877843097703831], ["acid", -0.09404770825465081], ["can", 0.09101274041747318], ["exposure", -0.08745154841203213], ["including", -0.08720045396174192], ["enforce", -0.0845540661336782], ["caused", -0.07843220579485767], ["burning", -0.06857817271382137], ["vehicle", 0.06150786855880273], ["harmful", -0.06056744505731729], ["polluted", 0.05775265559649716], ["depletion", -0.057393008967209155]], 1, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_text([["can", 182, 0.178828986418428], ["can", 466, 0.178828986418428], ["can", 697, 0.178828986418428], ["building", 791, 0.15603539241050116], ["part", 593, 0.12925055533840238], ["management", 686, 0.09501144149703758], ["management", 758, 0.09501144149703758], ["loss", 325, 0.09081494316131025], ["essential", 884, 0.07499970340659944], ["including", 311, -0.07319544733424493], ["including", 781, -0.07319544733424493], ["early", 857, 0.06597182318758883], ["property", 355, 0.06454807400552633], ["natural", 11, -0.058480268892516805], ["natural", 585, -0.058480268892516805], ["are", 7, -0.05294076013079468], ["are", 579, -0.05294076013079468], ["are", 880, -0.05294076013079468], ["urbanization", 658, 0.052616341250184974], ["flood", 752, -0.048944461730590715], ["flood", 800, -0.048944461730590715], ["infrastructure", 403, -0.04593600756008228], ["damage", 393, -0.04544080487690571], ["devastating", 275, 0.04092366543345117], ["gradually", 233, -0.03650042840946986], ["severity", 732, 0.035624028570517094], ["exacerbate", 701, 0.03196981703365762], ["as", 202, 0.030293050219842285], ["as", 423, 0.030293050219842285], ["as", 640, 0.030293050219842285]], 1, "Floods are natural disasters characterized by the overflow of water onto normally dry land, often caused by heavy rainfall, overflowing rivers, rapid snowmelt, or dam failures. They can occur suddenly, as in flash floods, or develop gradually over days or weeks. Floods have devastating impacts on communities, including the loss of lives, destruction of property, displacement of people, and damage to infrastructure such as roads and bridges. Additionally, floods can lead to long-term issues like waterborne diseases and contamination of drinking water supplies. While floods are a natural part of many ecosystems, human activities such as deforestation, urbanization, and poor land management can exacerbate their frequency and severity. Effective flood management strategies, including building flood defenses, improving drainage systems, and creating early warning systems, are essential to mitigate their impact.\n", raw_div, true);
+            exp.show_raw_text([["environmental", 389, 0.5472709393598068], ["environmental", 602, 0.5472709393598068], ["reduce", 477, 0.21241066989961596], ["layer", 457, -0.2011190002761873], ["air", 122, 0.19982695619826474], ["air", 256, 0.19982695619826474], ["air", 360, 0.19982695619826474], ["air", 484, 0.19982695619826474], ["contributes", 374, -0.1410150931162352], ["ozone", 451, -0.13265213849032156], ["Prolonged", 225, 0.12714414317357717], ["essential", 505, 0.12692439332956004], ["respiratory", 305, -0.09877843097703831], ["acid", 420, -0.09404770825465081], ["can", 260, 0.09101274041747318], ["exposure", 235, -0.08745154841203213], ["including", 295, -0.08720045396174192], ["enforce", 585, -0.0845540661336782], ["caused", 140, -0.07843220579485767], ["burning", 200, -0.06857817271382137], ["vehicle", 150, 0.06150786855880273], ["harmful", 26, -0.06056744505731729], ["polluted", 247, 0.05775265559649716], ["depletion", 463, -0.057393008967209155]], 1, "Air pollution occurs when harmful substances like carbon monoxide, sulfur dioxide, and particulate matter contaminate the air. It is mainly caused by vehicle emissions, industrial activities, and the burning of fossil fuels. Prolonged exposure to polluted air can lead to serious health issues, including respiratory diseases and heart problems. Additionally, air pollution contributes to environmental problems such as acid rain, global warming, and ozone layer depletion. To reduce air pollution, it is essential to adopt renewable energy sources, promote public transportation, and enforce stricter environmental regulations.", raw_div, true);
             
         </script>
         </body></html>
